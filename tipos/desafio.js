@@ -20,3 +20,4 @@ let funcionario = {
 };
 console.log(funcionario.baterPonto(5));
 console.log(funcionario.supervisores);
+//# sourceMappingURL=desafio.js.map

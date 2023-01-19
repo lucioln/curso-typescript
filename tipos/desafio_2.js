@@ -12,3 +12,4 @@ let Ana = {
 };
 Ana.contaBancaria.depositar(3000);
 console.log(Ana);
+//# sourceMappingURL=desafio_2.js.map

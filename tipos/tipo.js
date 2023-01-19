@@ -116,3 +116,4 @@ let altura = 12;
 //altura = null
 let alturaOpicional = 12;
 alturaOpicional = null;
+//# sourceMappingURL=tipo.js.map
