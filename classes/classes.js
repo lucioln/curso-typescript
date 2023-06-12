@@ -1,12 +1,11 @@
 "use strict";
 class Data {
-    constructor(dia, mes, ano) {
+    constructor(dia = 1, mes = 1, ano = 1) {
         this.dia = dia;
         this.mes = mes;
         this.ano = ano;
     }
 }
-const Aniversario = new Data(28, 11, 1998);
 // console.log(Aniversario)
 class DataEsperta {
     constructor(dia = 1, mes = 1, ano = 1970) {

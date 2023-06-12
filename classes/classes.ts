@@ -1,16 +1,17 @@
 class Data {
+ 
     dia: number
-    public mes: number
+    mes: number
     ano: number
-
-    constructor(dia: number, mes: number, ano: number) {
-        this.dia = dia
-        this.mes = mes
-        this.ano = ano
+   
+    constructor(dia: number = 1, mes: number = 1, ano: number = 1) {
+      this.dia = dia
+      this.mes = mes
+      this.ano = ano
     }
-}
+  }
+   
 
-const Aniversario = new Data(28, 11, 1998)
 
 // console.log(Aniversario)
 
@@ -129,7 +130,7 @@ class Aviao {
     }
 
     //métodos estáticos
-    public voar():string{
+    public voar(): string {
         return 'estou voando';
     }
 
